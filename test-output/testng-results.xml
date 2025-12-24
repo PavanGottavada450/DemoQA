@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-22T15:35:09 IST" name="Default suite" finished-at="2025-11-22T15:35:19 IST" duration-ms="9863">
+  <suite started-at="2025-12-24T22:49:43 IST" name="Default suite" finished-at="2025-12-24T22:49:59 IST" duration-ms="16176">
     <groups>
     </groups>
-    <test started-at="2025-11-22T15:35:09 IST" name="Default test" finished-at="2025-11-22T15:35:19 IST" duration-ms="9863">
-      <class name="Nov22.BrowserWindowTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Nov22.BrowserWindowTest@3bf7ca37]" started-at="2025-11-22T15:35:09 IST" name="setUp" finished-at="2025-11-22T15:35:18 IST" duration-ms="8703" status="PASS">
+    <test started-at="2025-12-24T22:49:43 IST" name="Default test" finished-at="2025-12-24T22:49:59 IST" duration-ms="16176">
+      <class name="Dec24.FramesTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Dec24.FramesTest@79079097]" started-at="2025-12-24T22:49:43 IST" name="setup" finished-at="2025-12-24T22:49:49 IST" duration-ms="5498" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyNewTab()[pri:0, instance:Nov22.BrowserWindowTest@3bf7ca37]" started-at="2025-11-22T15:35:18 IST" name="verifyNewTab" finished-at="2025-11-22T15:35:18 IST" duration-ms="662" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFrame1()[pri:0, instance:Dec24.FramesTest@79079097]" started-at="2025-12-24T22:49:49 IST" name="verifyFrame1" finished-at="2025-12-24T22:49:59 IST" duration-ms="10194" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNewTab -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Nov22.BrowserWindowTest@3bf7ca37]" started-at="2025-11-22T15:35:18 IST" name="tearDown" finished-at="2025-11-22T15:35:19 IST" duration-ms="422" status="PASS">
+        </test-method> <!-- verifyFrame1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Dec24.FramesTest@79079097]" started-at="2025-12-24T22:49:59 IST" name="tearDown" finished-at="2025-12-24T22:49:59 IST" duration-ms="417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Nov22.BrowserWindowTest -->
+      </class> <!-- Dec24.FramesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
