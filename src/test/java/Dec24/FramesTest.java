@@ -27,9 +27,7 @@ public class FramesTest {
         driver.quit();
     }
 
-    //=================================
-    // Frame 1 validation
-    //=================================
+    
     @Test
     public void verifyFrame1() {
 
@@ -41,9 +39,6 @@ public class FramesTest {
         driver.switchTo().defaultContent();
     }
 
-    //=================================
-    // Frame 2 validation
-    //=================================
     @Test
     public void verifyFrame2() {
 
