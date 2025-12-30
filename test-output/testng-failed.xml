@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Dec27.ModalDialogsTest">
+      <class name="Dec29.DatePickerTest">
         <methods>
           <include name="setUp"/>
+          <include name="dateTest"/>
           <include name="tearDown"/>
-          <include name="verifyModalDialog"/>
         </methods>
-      </class> <!-- Dec27.ModalDialogsTest -->
+      </class> <!-- Dec29.DatePickerTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
